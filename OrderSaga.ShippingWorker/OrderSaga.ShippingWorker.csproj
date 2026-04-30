@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="MassTransit" Version="8.3.6" />
+	  <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="8.3.6" />
+	  <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.6" />
+	  <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderSaga.Contracts\OrderSaga.Contracts.csproj" />
+  </ItemGroup>
+</Project>
