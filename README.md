@@ -1,6 +1,6 @@
 # OrderSaga.NET
 
-A production-quality example of the **Saga Pattern** in .NET 8 using **MassTransit** and **Azure Service Bus**.
+A production-quality example of the **Saga Pattern** in .NET 10 using **MassTransit** and **Azure Service Bus**.
 
 Companion code for the article: [The Saga Pattern in .NET & Azure — An Architect's Deep Dive](https://asmashaikhtech.hashnode.dev)
 
